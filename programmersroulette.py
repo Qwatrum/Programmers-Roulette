@@ -1,0 +1,1 @@
+for i in range(50): import random;import pyautogui as ptg;import time;ptg.moveTo(random.randint(0,ptg.size()[0]), random.randint(0,ptg.size()[1]));time.sleep(0.2);ptg.doubleClick()
